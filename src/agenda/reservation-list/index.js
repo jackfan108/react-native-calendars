@@ -35,7 +35,13 @@ class ReactComp extends Component {
     refreshControl: PropTypes.element,
     refreshing: PropTypes.bool,
     onRefresh: PropTypes.func,
+    // Display date on the left of item. Default = true
+    displayLeftDate: PropTypes.bool,
   };
+
+  static defaultProps = {
+    displayLeftDate: true,
+  }
 
   constructor(props) {
     super(props);

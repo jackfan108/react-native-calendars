@@ -89,6 +89,8 @@ export default class AgendaView extends Component {
     refreshing: PropTypes.bool,
     // Display loading indicador. Default = false
     displayLoadingIndicator: PropTypes.bool,
+    // Display date on the left of item. Default = true
+    displayLeftDate: PropTypes.bool,
   };
 
   constructor(props) {
